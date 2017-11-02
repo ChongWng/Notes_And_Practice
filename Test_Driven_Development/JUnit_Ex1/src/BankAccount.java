@@ -1,10 +1,31 @@
 
 public class BankAccount {
-	public int balance;
+	private int balance;
 	
+	public BankAccount() {
+		balance = 0;
+	}
+
+	public BankAccount(int i) {
+		balance = i;
+	}
+	
+	public int getBalance(){
+		return balance;
+	}
+
 	public void deposit(int i) {
-		// TODO Auto-generated method stub
 		balance += i;
 	}
+
+	public void withdraw(int i) {
+		balance -= i;
+		if(balance < 0){
+			balance -= 5;
+		}
+	}
+	
+	
+
 
 }

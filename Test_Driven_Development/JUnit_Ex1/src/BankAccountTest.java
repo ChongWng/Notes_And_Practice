@@ -5,12 +5,24 @@ import org.junit.Test;
 public class BankAccountTest {
 
 	@Test
-	public void test() {
-		//fail("Not yet implemented");
-		
+	public void testDeposit() {
 		BankAccount acc = new BankAccount();
 		acc.deposit(50);
-		assertEquals(acc.balance, 50);
+		assertEquals(acc.getBalance(), 50);
+	}
+	
+	@Test
+	public void testWithdraw() {
+		BankAccount acc = new BankAccount(75);	
+		acc.withdraw(30);
+		assertEquals(acc.getBalance(), 45);
+	}
+	
+	@Test
+	public void testWithdrawWithPenalty() {
+		BankAccount acc = new BankAccount(70);	
+		acc.withdraw(100);
+		assertEquals(acc.getBalance(), -35);
 	}
 
 }

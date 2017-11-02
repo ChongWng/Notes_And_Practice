@@ -14,3 +14,12 @@
 
 red(fail)/green(success)/refactor(edit codes to get success)
 
+### TDD in a nutshell
+
+1. Write a test
+2. Watch the test fail
+3. Write apllication logic - as simple as possible
+4. Pass the test
+5. Refactor, removing duplication
+6. Pass the test agile
+
