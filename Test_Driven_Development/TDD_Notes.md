@@ -23,3 +23,41 @@ red(fail)/green(success)/refactor(edit codes to get success)
 5. Refactor, removing duplication
 6. Pass the test agile
 
+### Naming unit tests
+
+JUnit: Annotation @test or test methods start with testXXX
+
+```
+    public void testDeposit() {
+        BankAccount acc = new BankAccount();    //Arrange
+        acc.deposit(50);                        //Act
+        assertEquals(acc.getBalance(), 50);     //Assert
+    }
+
+```
+
+__setUp() & tearDown() come before and after every single test method__
+```
+    @before
+    setUp();
+    @test
+    testDeposit();
+    @after
+    tearDown();
+```
+###### 
+```
+    @before
+    setUp();
+    @test
+    testWithdraw();
+    @after
+    tearDown();
+```
+
+__setUpBeforeClass() & tearDownAfterClass()__
+#### *setUp() would be used most often
+
+## Common questions
+
++ No need to test all the setters and getters, only test the logic
