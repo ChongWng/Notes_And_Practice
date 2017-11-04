@@ -45,7 +45,7 @@ __setUp() & tearDown() come before and after every single test method__
     @after
     tearDown();
 ```
-###### 
+######  
 ```
     @before
     setUp();
@@ -60,4 +60,34 @@ __setUpBeforeClass() & tearDownAfterClass()__
 
 ## Common questions
 
-+ No need to test all the setters and getters, only test the logic
+No need to test all the setters and getters, only test the logic
+
+## Reasons for Mock objects
+
+- Real object hasn't been written
+- UI/human interaction
+- Slow or difficult to set up
+- External resource: file system, database, network, printer
+- Non-deterministic behavior
+
+__Mock objects frameworks:__
+[jMock](jmock.org)
+[easyMock](easymock.org)
+mockito
+
+__Code coverage__: classes, methods
+
+## TDD Recommendations
+
+- One test case / test fixture for each class
+- 3-5 test methods for each class method
+    + if too many test methods for one method, then the method must have too much responsibility and should be split up
+    + if only one test method for each class method, then where is your logic and conditions, and are you actually testing them. 
+- A test for every branch
+    + if/else/and/or/case/for/while/polymorphism
+- use code coverage tools
+- Avoid 
+    + interact with real database or file system
+    + require non-trivial network communication
+    + require environment changes to run
+    + call complex collaborator objects
