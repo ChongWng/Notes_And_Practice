@@ -1,0 +1,11 @@
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/DotNetCore_Angular.deps.json
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/DotNetCore_Angular.runtimeconfig.json
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/DotNetCore_Angular.runtimeconfig.dev.json
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/DotNetCore_Angular.dll
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/bin/Debug/netcoreapp2.0/DotNetCore_Angular.pdb
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.csproj.CoreCompileInputs.cache
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.AssemblyInfoInputs.cache
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.AssemblyInfo.cs
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.dll
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.pdb

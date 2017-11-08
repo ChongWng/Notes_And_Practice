@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{3062F993-79BF-44CD-86A1-FC74EB92744C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DotNetCore_Angular/index.html">
+    <Files>
+      <File FileName="DotNetCore_Angular/Program.cs" Line="1" Column="1" />
+      <File FileName="DotNetCore_Angular/Startup.cs" Line="28" Column="39" />
+      <File FileName="DotNetCore_Angular/index.html" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DotNetCore__Angular PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
