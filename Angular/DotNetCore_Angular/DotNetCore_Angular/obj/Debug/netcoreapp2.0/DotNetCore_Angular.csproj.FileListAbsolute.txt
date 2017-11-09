@@ -9,3 +9,4 @@
 /Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.AssemblyInfo.cs
 /Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.dll
 /Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.pdb
+/Users/wang/Documents/Github/Notes_And_Practice/Angular/DotNetCore_Angular/DotNetCore_Angular/obj/Debug/netcoreapp2.0/DotNetCore_Angular.csprojResolveAssemblyReference.cache

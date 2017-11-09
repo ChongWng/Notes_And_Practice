@@ -29,7 +29,8 @@ namespace DotNetCore_Angular
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
-            app.UseStaticFiles();
+            app.UseDefaultFiles();
+            app.UseStaticFiles(); //only deliver the files in the folder "wwwroot"
         }
     }
 }
