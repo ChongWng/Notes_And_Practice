@@ -64,3 +64,24 @@ drawPoint({
     x: 1,
     y: 2
 })
+
+//--------------------------------------
+//introduction of class
+
+class Point{
+    x: number;
+    y: number;
+
+    draw(){
+        console.log('X: ' + this.x + ', Y: ' + this.y);
+    }
+
+    getDistance(anotherPoint: Point){
+        //...
+    }
+}
+
+let point = new Point();
+point.x = 1;
+point.y = 2;
+point.draw();
